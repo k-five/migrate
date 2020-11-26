@@ -2,282 +2,200 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Migrate</title>
-    <meta name="description" content="We are able to learn and do things more effectively by awareness and comparing ineffective versus effectives methods we have.">
-    <meta name="keywords"    content="migrate, change, life, life style, quit, habit, effectiveness, effective">
+    <title>Migrate.shakiba.net</title>
+    <meta name="description" content="do not memorize words, migrate to new world">
+    <meta name="keywords" content="learning english">
     <meta name="author" content="Shakiba Moshiri">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="/red-cursor-icon.png" type="image/x-icon">
+    <link href="/soma.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <style>
-    html,body { height: 100%; font-size: 17px; }
-    body{
-        font-family: 'Righteous', cursive;
-        overflow-x: hidden;
-        margin: 0 10% 0 10%;
+    * {
+        margin: 0; padding: 0; border: none; 
     }
+    html,body { height: 100%; font-size: 15px; overflow: hidden; }
+    body{
+        background-color: #fff;
+        width: 100%;
+        font-family: 'Righteous', cursive;
+        overflow: hidden;
+        text-align: center;
+    }
+    a {
+        color: #000
+    }
+    h1 {
+        color: #fff;
+        text-shadow: 0 0 5px #000;
+    }
+
+    div.soma {
+        height: 100%;
+    }
+    .carousel-x-item {
+        padding: 5%;
+        box-sizing: border-box;
+    }
+    .carousel-x-item h1 {
+        font-size: 6vmin;
+    }
+    #migrate {
+        font-size: 10vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+        text-shadow: 0 0 10px #000;
+    }
+    #migrate h1 span {
+        color: #f00;
+    }
+    #Roadmap  section:nth-child( 2n + 1 ){ background-color: #face33; }
+    #Topics  section:nth-child( 2n + 0 ){ background-color: #face33; }
+    #You  section:nth-child( 2n + 1 ){ background-color: #face33; }
+    #Me  section:nth-child( 2n + 0 ){ background-color: #face33; }
+
     </style>
 </head>
+<body>
+
+<div class="soma example">
+    <div id="Home" class="carousel-y">
+        <input id="carousel-y-switch-1" type="radio" name="carousel-y-switch-group-1" checked="checked" />
+        <input id="carousel-y-switch-2" type="radio" name="carousel-y-switch-group-1" />
+        <input id="carousel-y-switch-3" type="radio" name="carousel-y-switch-group-1" />
+        <input id="carousel-y-switch-4" type="radio" name="carousel-y-switch-group-1" />
+        <input id="carousel-y-switch-5" type="radio" name="carousel-y-switch-group-1" />
+        <div class="carousel-y-indicator">
+            <label for="carousel-y-switch-1" data-switch-title="Home" data-switch-guide="" class="switch-title hover switch-guide" data-child="0"></label>
+            <label for="carousel-y-switch-2" data-switch-title="Roadmap" data-switch-guide="" class="switch-title hover switch-guide" data-child="1"></label>
+            <label for="carousel-y-switch-3" data-switch-title="Topics" data-switch-guide="" class="switch-title hover switch-guide" data-child="2"></label>
+            <label for="carousel-y-switch-4" data-switch-title="You" data-switch-guide="" class="switch-title hover switch-guide" data-child="3"></label>
+            <label for="carousel-y-switch-5" data-switch-title="Me" data-switch-guide="" class="switch-title hover switch-guide" data-child="4"></label>
+        </div>
+        <section id="migrate" class="carousel-y-item">
+            <p>Migrate</p>
+        </section>
+        <section id="Roadmap" class="carousel-y-item">
+            <div class="carousel-x">
+                <input id="carousel-x-switch-1" type="radio" name="carousel-x-switch-group-2" checked="checked" />
+                <input id="carousel-x-switch-2" type="radio" name="carousel-x-switch-group-2" />
+                <input id="carousel-x-switch-3" type="radio" name="carousel-x-switch-group-2" />
+                <input id="carousel-x-switch-4" type="radio" name="carousel-x-switch-group-2" />
+                <input id="carousel-x-switch-5" type="radio" name="carousel-x-switch-group-2" />
+                <div class="carousel-x-indicator">
+                    <label for="carousel-x-switch-1" data-switch-title="TEST" class="switch-title hover animation"></label>
+                    <label for="carousel-x-switch-2" data-switch-title="Comfortable" class="switch-title hover animation"></label>
+                    <label for="carousel-x-switch-3" data-switch-title="Motivation" class="switch-title hover animation"></label>
+                    <label for="carousel-x-switch-4" data-switch-title="Activation" class="switch-title hover animation"></label>
+                    <label for="carousel-x-switch-5" data-switch-title="Migration" class="switch-title hover animation"></label>
+                </div>
+                <section class="carousel-x-item"><h1>TEST phase</h1>
+                    <p>You will have 5 to 10 free sessions to test me</p>
+                </section>
+                <section class="carousel-x-item">
+                    <h1>Comfortable</h1>
+                    <p>We reduce our stress to 0.0</p>
+                </section>
+                <section class="carousel-x-item">
+                    <h1>Motivation</h1>
+                    <p>We realize how we can do / achieve  with our abilities </p>
+                </section>
+                <section class="carousel-x-item">
+                    <h1>Activation</h1>
+                    <p>We engage more in our specific community</p>
+                </section>
+                <section class="carousel-x-item">
+                    <h1>Migration</h1>
+                    <p>Shifting our mentality towards a new version of ourselves</p>
+                </section>
+            </div>
+        </section>
+        <section id="Topics" class="carousel-y-item" >
+            <div class="carousel-x">
+                <input id="carousel-x-switch-6" type="radio" name="carousel-x-switch-group-3" checked="checked" />
+                <input id="carousel-x-switch-7" type="radio" name="carousel-x-switch-group-3" />
+                <input id="carousel-x-switch-8" type="radio" name="carousel-x-switch-group-3" />
+                <div class="carousel-x-indicator">
+                    <label for="carousel-x-switch-6" data-switch-title="Self" class="switch-title hover animation"></label>
+                    <label for="carousel-x-switch-7" data-switch-title="Future" class="switch-title hover animation"></label>
+                    <label for="carousel-x-switch-8" data-switch-title="Expertise" class="switch-title hover animation"></label>
+                </div>
+                <section id="Self" class="carousel-x-item">
+                    <h1>Self</h1>
+                    <p>We try to know ourselves deeply</p>
+                </section>
+                <section id="telephone" class="carousel-x-item">
+                    <h1>Future</h1>
+                    <p>We plan for our future deliberately and accurately</p>
+                </section>
+                <section id="social-media" class="carousel-x-item">
+                    <h1>Expertise</h1>
+                    <p>We improve our skills based on World-class level</p>
+                </section>
+            </div>
+        </section>
+        <section id="You" class="carousel-y-item">
+            <div class="carousel-x">
+                <input id="carousel-x-switch-9" type="radio" name="carousel-x-switch-group-5" checked="checked" />
+                <input id="carousel-x-switch-10" type="radio" name="carousel-x-switch-group-5" />
+                <input id="carousel-x-switch-11" type="radio" name="carousel-x-switch-group-5" />
+                <div class="carousel-x-indicator">
+                    <label for="carousel-x-switch-9" data-switch-title="First" class="switch-title hover animation"></label>
+                    <label for="carousel-x-switch-10" data-switch-title="Second" class="switch-title hover animation"></label>
+                    <label for="carousel-x-switch-11" data-switch-title="Third" class="switch-title hover animation"></label>
+                </div>
+                <section class="carousel-x-item">
+                    <h1>Candidate</h1>
+                    <p>You expertise relates to IT / Computer /  Software or Engineering</p>
+                </section>
+                <section class="carousel-x-item">
+                    <h1>You Level</h1>
+                    <p>You English level is B1 or upper, we do not speak in Persian</p>
+                    <p>You already practiced English and this is not your first class</p>
+                </section>
+                <section class="carousel-x-item">
+                    <h1>Prerequisite</h1>
+                    <p>You have a long term plan for learning</p>
+                    <p>You like challenge, because classes are not like ordinary classes you have in mind</p>
+                </section>
+            </div>
+        </section>
+        <section id="Me" class="carousel-y-item">
+            <div class="carousel-x">
+                <input id="carousel-x-switch-12" type="radio" name="carousel-x-switch-group-4" checked="checked" />
+                <input id="carousel-x-switch-13" type="radio" name="carousel-x-switch-group-4" />
+                <input id="carousel-x-switch-14" type="radio" name="carousel-x-switch-group-4" />
+                <div class="carousel-x-indicator">
+                    <label for="carousel-x-switch-12" data-switch-title="Who" class="switch-title hover animation"></label>
+                    <label for="carousel-x-switch-13" data-switch-title="Contact" class="switch-title hover animation"></label>
+                    <label for="carousel-x-switch-14" data-switch-title="Social Meida" class="switch-title hover animation"></label>
+                </div>
+                <section id="Who" class="carousel-x-item">
+                    <h1>Who am I?</h1>
+                    <p>I am computer, software, Linux, mind nut.</p>
+                </section>
+                <section id="contact" class="carousel-x-item">
+                    <h1>Contact me</h1>
+                    <p>Phone: +98 930 781 8089</p>
+                    <p>Skype: live:shakiba.moshiri</p>
+                </section>
+                <section id="social-media" class="carousel-x-item">
+                    <h1>You can find me on</h1>
+                    <p><a target="_blank" href="https://github.com/k-five">github.com</a></p>
+                    <p><a target="_blank" href="https://stackoverflow.com/users/4643584/shakiba-moshiri">stackoverflow.com</a></p>
+                    <p><a target="_blank" href="https://www.youtube.com/channel/UC6BXTiF_fWt8RFVa4l7PXHw?view_as=subscriber">youtube.com</a></p>
+                    <p><a target="_blank" href="https://www.linkedin.com/in/shakibamoshiri/">linkedin.com</a></p>
+                    <p><a target="_blank" href="https://www.instagram.com/shakibamoshiri/">instagram.com</a></p>
+                </section>
+            </div>
+        </section>
+        
+    </div>
+</div>
+
 </body>
-    <h1>Why</h1>
-    <p>I did it, and I thick you can do it.</p>
-    <br>
-    
-    <h1>TLA - roadmap</h1>
-    <ol>
-        <li>Comfortable (reduce/remove stress (10 to N sessions)</li>
-        <li>Motivate (see abilities, trust yourself, looking forward towards your future (10 to N sessions)</li>
-        <li>Fearless (feel free to talk about almost anything (10 to N sessions)</li>
-        <li>Activate (focus on opportunities, plan future, raise chance, be optimistic (10 to N sessions)</li>
-        <li>Migrate (change mindsets, quit habits, build new lifestyle (10 to N sessions)</li>
-    </ol>
-    <br>
-    
-    <h1>Workflow</h1>
-    <ol>
-        <li>Speaking about job, major, some routines</li>
-        <li>Speaking about past, now, future, environment, FFO, self</li>
-        <li>Speaking about withes, dreams(s), failures, losses</li>
-        <li>Do it</li>
-        <li>Taking the risk and jump</li>
-    </ol>
-    <br>
-    
-    <h1>Architecture</h1>
-    <h3>TLA - Life</h3>
-    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="200px" font-family="Righteous, cursive, sans-serif">
-    <title>Private Git Server Animation</title>
-    <desc>Author: Shakiba Moshiri</desc>
-
-    <g id="end_users_1" transform="translate(0,100)">
-        <text x="360" y="70"  font-size="20" >You</text>
-        <text x="430" y="-10"  font-size="20"><== Time <== </text>
-        <text x="10" y="40"  font-size="20">Birth</text>
-        <text x="940" y="40"  font-size="20">Death</text>
-        <path id="move_stroke"  d="M0,10 l1000,0" stroke-dasharray="10" stroke-dashoffset="-200" fill="none" stroke="#000"  stroke-width='5' marker-end="url(#arrow)"></path>
-        <rect x="480" y="0" width="20" height="20" fill="#f00"></rect>
-        </g>
-        <g id="delivery" transform="translate(450,100)">
-        <path d="M40,25 v10 q0,30 -30,30 h-60" fill="none" stroke="#000" stroke-width="2" marker-end="url(#ballet_red)" marker-start="url(#ballet_red)"></path>
-        </g>
-
-        <defs>
-        <marker id="arrowhead" markerWidth="10" markerHeight="7"
-        refX="0" refY="3.5" orient="auto">
-        <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
-        </marker>
-        <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
-        <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
-        </marker>
-        </defs>
-        <defs>
-        <style type="text/css"><![CDATA[
-            @-webkit-keyframes stroke_forward {
-                100% { stroke-dashoffset: -140;  } }
-                @keyframes stroke_forward {
-                    100% { stroke-dashoffset: -140; }
-                }
-path#move_stroke {
-    animation-name: stroke_forward;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-        ]]></style>
-        </defs>
-        </svg>
-
-    <br>
-
-    <h3>TLA - You (zoom in)</h3>
-<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="400px" font-family="'Montserrat', sans-serif">  
-<title>stuck model</title>
-<desc>Author: Shakiba Moshiri</desc>
-    
-<g id="end_users_1" transform="translate(0,30)">
-    <text x="500" y="30"  text-anchor="middle" font-size="20">&lt;== time &lt;==</text>
-    <text x="500" y="-10"  text-anchor="middle"  font-size="20">physically we can only go forward</text>
-    <path id="move_stroke"  d="M0,10 l1000,0" stroke-dasharray="10" stroke-dashoffset="-200" fill="none" stroke="#000"  stroke-width='5' marker-end="url(#arrow)"></path>
-</g>
-<g id="end_users_1" transform="translate(0,300)">
-    <text x="50" y="-90" text-anchor="start"  font-size="30">Past</text>
-    <text x="500" y="-180" text-anchor="middle"  font-size="30">Environment</text>
-    <text x="500" y="-90" text-anchor="middle"  font-size="30">Self</text>
-    <text x="500" y="-10" text-anchor="middle"  font-size="30">FFO</text>
-    <text x="950" y="-90" text-anchor="end"  font-size="30">Future</text>
-    <path  d="M370,20 l250,0 l0,-167 l-84,0 l0,84 l-167,0z"  fill="none" stroke="#f00"  stroke-width='3'></path>
-    <path  d="M370,-230 l250,0 l0,84 l-167,0 l0,84 l-84,0z"  fill="none" stroke="#f00"  stroke-width='3'></path>
-</g>
-<g id="end_users_1" transform="translate(0,340)">
-    <text x="500" y="0"  text-anchor="middle" font-size="20">&lt;== time &lt;==</text>
-    <text x="500" y="50"  text-anchor="middle" font-size="20">mentally we can go either forward or backward</text>
-    <path id="move_stroke"  d="M0,10 l1000,0" stroke-dasharray="10" stroke-dashoffset="-200" fill="none" stroke="#000"  stroke-width='5' marker-end="url(#arrow)"></path>
-</g>
-  
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
-            refX="0" refY="3.5" orient="auto">
-      <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
-    </marker>
-    <marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
-      <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
-    </marker>
-</defs>
-    <defs>
-    <style type="text/css"><![CDATA[
-      @-webkit-keyframes stroke_forward {
-        100% { stroke-dashoffset: -140;  } }
-      @keyframes stroke_forward {
-        100% { stroke-dashoffset: -140; }
-      }
-      path#move_stroke {
-        animation-name: stroke_forward;
-        animation-duration: 5s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-      }
-  ]]></style>
-  </defs>
-</svg>
-
-    <br>
-    
-    
-    <h3>TLA - ideal-thinker (ideal life)</h3>
-    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="200px" font-family="'Montserrat', sans-serif">
-<title>Private Git Server Animation</title>
-<desc>Author: Shakiba Moshiri</desc>
-
-<g id="life_idea_1" transform="translate(0,0)">
-    <text x="10" y="180"  font-size="20">idea</text>
-    <text x="940" y="40"  font-size="20">goal</text>
-    <path id="move_stroke"  d="M0,200 l990,-190" stroke-dasharray="10" stroke-dashoffset="20" fill="none" stroke="#f00"  stroke-width='5' marker-end="url(#arrow)"></path>
-</g>
-<g id="life_idea_2" transform="translate(0,0)">
-    <text x="10" y="20"  font-size="20">difficulty</text>
-    <text x="940" y="180"  font-size="20">time</text>
-    <path d="M5,200 l0,-200"   fill="none" stroke="#000"  stroke-width='5'></path>
-    <path d="M1,196 l1000,-0"   fill="none" stroke="#000"  stroke-width='5' ></path>
-</g>
-
-<defs>
-<marker id="arrowhead" markerWidth="10" markerHeight="7"
-        refX="0" refY="3.5" orient="auto">
-  <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
-</marker>
-<marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
-  <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
-</marker>
-</defs>
-    <defs>
-    <style type="text/css"><![CDATA[
-      @-webkit-keyframes stroke_forward {
-        100% { stroke-dashoffset: -140;  } }
-      @keyframes stroke_forward {
-        100% { stroke-dashoffset: -140; }
-      }
-      path#move_stroke {
-        animation-name: stroke_forward;
-        animation-duration: 5s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-      }
-  ]]></style>
-  </defs>
-</svg>
-
-    <br>
-    
-    <h3>TLA - wishful-thinker (dreamy life)</h3>
-<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="200px" font-family="'Montserrat', sans-serif">  
-<title>Private Git Server Animation</title>
-<desc>Author: Shakiba Moshiri</desc>
-    
-<g id="life_idea_1" transform="translate(0,0)">
-    <text x="10" y="180"  font-size="20">idea</text>
-    <text x="940" y="40"  font-size="20">goal</text>
-    <path id="move_stroke"  d="M5,100 q 50,-50 100 0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0"
-          stroke-dasharray="10" stroke-dashoffset="20" fill="none" stroke="#f00"  stroke-width='5' marker-end="url(#arrow)"></path>
-</g>
-<g id="life_idea_2" transform="translate(0,0)">
-    <text x="10" y="20"  font-size="20">difficulty</text>
-    <text x="940" y="180"  font-size="20">time</text>
-    <path d="M5,200 l0,-200"   fill="none" stroke="#000"  stroke-width='5'></path>
-    <path d="M1,196 l1000,-0"   fill="none" stroke="#000"  stroke-width='5' ></path>
-</g>
-    
-<defs>
-<marker id="arrowhead" markerWidth="10" markerHeight="7" 
-        refX="0" refY="3.5" orient="auto">
-  <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
-</marker>
-<marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
-  <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
-</marker>
-</defs>
-    <defs>
-    <style type="text/css"><![CDATA[
-      @-webkit-keyframes stroke_forward {
-        100% { stroke-dashoffset: -140;  } }
-      @keyframes stroke_forward {
-        100% { stroke-dashoffset: -140; }
-      }
-      path#move_stroke {
-        animation-name: stroke_forward;
-        animation-duration: 5s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-      }
-  ]]></style>
-  </defs>
-</svg>
-
-    <br>
-    
-    <h3>TLA - realistic-thinker (real life)</h3>
-<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="200px" font-family="'Montserrat', sans-serif">  
-<title>Private Git Server Animation</title>
-<desc>Author: Shakiba Moshiri</desc>
-    
-<g id="life_idea_1" transform="translate(0,0)">
-    <text x="10" y="180"  font-size="20">idea</text>
-    <text x="940" y="40"  font-size="20">goal</text>
-    <path id="move_stroke"  d="M5,195 l50,-20 50,20 20,-20 20,20 30,-50 20,20 30,-30 40,40 30,-30 50,0 30-30 50,70 50,0 30,-50 20,20 40,-40 20,20 30,-30 10,10 40,-40 50,50 30,-30 10,10 20,-20 40,40 50,-50 20,20 90,-80"
-          stroke-dasharray="10" stroke-dashoffset="20" fill="none" stroke="#f00"  stroke-width='5' marker-end="url(#arrow)"></path>
-</g>
-<g id="life_idea_2" transform="translate(0,0)">
-    <text x="10" y="20"  font-size="20">difficulty</text>
-    <text x="940" y="180"  font-size="20">time</text>
-    <path d="M5,200 l0,-200"   fill="none" stroke="#000"  stroke-width='5'></path>
-    <path d="M1,196 l1000,-0"   fill="none" stroke="#000"  stroke-width='5' ></path>
-</g>
-    
-<defs>
-<marker id="arrowhead" markerWidth="10" markerHeight="7" 
-        refX="0" refY="3.5" orient="auto">
-  <polygon fill="#000" points="0 0, 5 3.5, 0 7" />
-</marker>
-<marker id="diamond" markerWidth="12" markerHeight="12" refX="6" refY="6" >
-  <circle fill="#000" cx="6" cy="6" r="2" stroke="context-stroke" stroke-width="2"/>
-</marker>
-</defs>
-    <defs>
-    <style type="text/css"><![CDATA[
-      @-webkit-keyframes stroke_forward {
-        100% { stroke-dashoffset: -140;  } }
-      @keyframes stroke_forward {
-        100% { stroke-dashoffset: -140; }
-      }
-      path#move_stroke {
-        animation-name: stroke_forward;
-        animation-duration: 5s;
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-      }
-  ]]></style>
-  </defs>
-</svg>
-
-    <br>
-    
 </html>
